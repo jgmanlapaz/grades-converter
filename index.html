@@ -72,8 +72,7 @@
 
     <div class="container">
       <p><br><br><b>Sources:</b>
-        <br> <a href="https://www.ateneo.edu/sites/default/files/2022-08/Volume%201%20LS%20Undergraduate%20Student%20Handbook%202022.pdf">Section V, Loyola Schools Undergraduate Student Handbook, Volume 1, 2022 Edition</a>
-        <br> <a href="https://our.upd.edu.ph/files/acadinfo/GRADUATION%20WITH%20HONORS.pdf">Revised UP Code</a>
+        <br> <a href="https://our.upd.edu.ph/files/PrimerforCollegeSecretaries.pdf">UP Primer for College Secretaries</a>
       </p>
     </div>
 
@@ -94,13 +93,13 @@
       gwa = gwa.toFixed(2)
     }
 
-    else if (valNum <=4 && valNum >= 3.49) {
-      gwa = -valNum*1.4906 + 6.9641
+    else if (valNum <=4 && valNum >= 2) {
+      gwa = -valNum*0.8 + 4.2
       gwa = gwa.toFixed(2)
     }
 
-    else if (valNum <=3.49 && valNum >= 1) {
-      gwa = -valNum*0.4985 + 3.4976
+    else if (valNum < 2 && valNum >= 1) {
+      gwa = -valNum*0.4 + 3.4
       gwa = gwa.toFixed(2)
     }
 
